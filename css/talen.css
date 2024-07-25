@@ -1,0 +1,201 @@
+.nav-btn {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+   
+    background-color: rgba(0, 0, 0, 0.089);
+   
+    color: #ffffff;
+    
+    transition: background-color 0.3s ease;
+    
+  }
+
+  .nav-btn:hover {
+    background-color: rgba(234, 0, 255, 0.37);
+    
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -outline: 0;
+    font-family: Roboto, sans-serif, arial;
+  }
+
+  html,
+  body {
+    font-size: 14px;
+    font-weight: 400;
+    background: url(/img/bg.jpg);
+    color: #ffffff;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .container {
+    width: 1100px;
+    margin: 0px auto;
+    display: table;
+  }
+
+  .width-33 {
+    width: 33%;
+    float: left;
+  }
+
+  .width-66 {
+    width: 66%;
+    float: left;
+  }
+
+  .main-panel {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 100vh;
+  }
+
+  .logo {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .span-col {
+    color: #ea00ff;
+  }
+
+  #color {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    
+  }
+
+  nav a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+  }
+
+  nav a:hover {
+    color: rgb(255, 0, 212);
+    transition: 0.5s ease-out;
+  }
+
+  #home:hover {
+    color: rgb(255, 0, 221);
+    transition: 0.5s ease-out;
+  }
+
+
+  .card {
+    width: 300px;
+    height: 400px;
+    margin: 90px 10px;
+    background-color: #24233b;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px rgb(73, 70, 92);
+    transition: 0.5s;
+    display: inline-block;
+    margin-right: 43px;
+    vertical-align: top;
+  }
+
+
+  .card+.card {
+    margin-left: 30px;
+  }
+
+  .card:hover {
+    -webkit-transform: translateY(-7px);
+    -ms-transform: translateY(-7px);
+    transform: translateY(-7px);
+    -webkit-box-shadow: 0px 10px 10px black;
+    box-shadow: 0px 10px 10px black;
+  }
+
+  .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  .circle {
+    padding: 0 4px;
+  }
+
+  .circle2 {
+    display: inline-block;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 5px;
+  }
+
+  .red {
+    background-color: #ff605c;
+  }
+
+  .yellow {
+    background-color: #ffbd44;
+  }
+
+  .green {
+    background-color: #00ca4e;
+  }
+
+  .header {
+    margin: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  #title2 {
+    color: white;
+    padding-left: 50px;
+    font-size: 15px;
+  }
+
+  .code-container {
+    text-align: center;
+  }
+
+  #code {
+    width: 270px;
+    height: 350px;
+    resize: none;
+    background-color: rgb(73, 70, 92);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px;
+  }
+
+  #code:focus {
+    outline: none !important;
+  }
